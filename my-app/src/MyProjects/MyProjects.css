@@ -8,6 +8,7 @@
 .projects-header{
     font-size: 30px;
     margin-bottom: 5%;
+    margin-left: 5%;
 }
 
 .project{
@@ -15,16 +16,17 @@
     justify-content: space-between;
     background-color: #233554;
     padding: 5% 2%;
+    margin: 0 5%;
     margin-bottom: 5%;
+    width: 90%;
 }
 
 .project > img{
-    width: 490px;
-    height: 247px;
+    width: 45%;
 }
 
 .project-content{
-    width: 450px;
+    width: 50%;
     max-width: 100%;
 }
 
@@ -38,4 +40,23 @@
     width: 80px;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 880px) {
+    .project > img{
+        height: 50%;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .project {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project > img{
+        width: 51%;
+        margin-bottom: 5%;
+    }
 }

@@ -28,17 +28,17 @@
 }
 
 .header-content_text:hover{
-    color:#64FFDA
+    color:rgb(119, 216, 222)
 }
 
 .header-btn{
-    border: 1px solid #64FFDA;
+    border: 1px solid rgb(119, 216, 222);
     border-radius: 12%;
-    color: #64FFDA;
+    color: rgb(119, 216, 222);
     padding: 7px 10px;
 }
 
 .header-btn:hover{
     color:#020C1B;
-    background-color: #64FFDA;
+    background-color: rgb(119, 216, 222);
 }

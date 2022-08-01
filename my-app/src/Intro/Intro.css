@@ -6,7 +6,7 @@
 }
 
 .intro-welcome{
-    color:#64FFDA;
+    color:rgb(119, 216, 222);
     font-size: 25px;
 }
 
@@ -36,8 +36,8 @@
     text-decoration: none;
     display: block;
     margin-top: 50px;
-    border: 1px solid #64FFDA;
-    color: #64FFDA;
+    border: 1px solid rgb(119, 216, 222);
+    color: rgb(119, 216, 222);
     border-radius: 7%;
     padding: 7px 10px;
     width: 120px;
@@ -46,5 +46,12 @@
 
 .intro-btn:hover{
     color: #020C1B;
-    background-color: #64FFDA;
+    background-color: rgb(119, 216, 222);
+}
+
+@media screen and (max-width: 1024px){
+    .intro{
+        margin-left: 5%;
+        width: 95%;
+    }
 }

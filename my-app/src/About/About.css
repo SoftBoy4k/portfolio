@@ -35,8 +35,24 @@
 }
 
 .about-knowledge > li{
-    color:#64FFDA;
+    color: rgb(119, 216, 222);
     font-size: 20px;
     list-style-type: none;
     margin-bottom: 5%;
+}
+
+
+@media screen and (max-width: 1024px){
+    .about{
+        padding-left: 5%;
+    }
+    .about-img{
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .about-content{
+        width: 95%;
+    }
 }
