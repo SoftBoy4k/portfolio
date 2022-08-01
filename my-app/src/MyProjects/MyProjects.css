@@ -1,0 +1,41 @@
+.my-projects{
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.projects-header{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+    background-color: #233554;
+    padding: 5% 2%;
+    margin-bottom: 5%;
+}
+
+.project > img{
+    width: 490px;
+    height: 247px;
+}
+
+.project-content{
+    width: 450px;
+    max-width: 100%;
+}
+
+.project-content > h3{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.project-icons{
+    margin-top: 5%;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
