@@ -3,6 +3,7 @@ import './App.css'
 import { Intro } from './Intro/Intro';
 import { About } from './About/About';
 import { MyProjects } from './MyProjects/MyProjects';
+import { Footer } from './Footer/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Intro/>
       <About/>
       <MyProjects/>
+      <Footer/>
     </>
   );
 }
