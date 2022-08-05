@@ -1,8 +1,6 @@
-import { useState } from "react";
 import "./Contact.css"
 
 export const Contact = () => {
-    const [name, setName] = useState('Vlad')
     return(
         <div className="contacts">
             <h2 className="contacts-header">

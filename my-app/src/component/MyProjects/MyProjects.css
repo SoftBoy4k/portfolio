@@ -42,7 +42,7 @@
     justify-content: space-between;
 }
 
-.project-icons > img:hover{
+.project-icons > img{
     cursor: pointer;
 }
 
