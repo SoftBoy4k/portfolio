@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    background-color: #020C1B;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+.header-logo{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.header-content{
+    max-width: 350px;
+    width: 100%;
+    margin-right: 5%;
+}
+
+.header-content a{
+    text-decoration: none;
+    margin-left: 3%;
+}
+
+.header-content_text:hover{
+    color:rgb(119, 216, 222)
+}
+
+.header-btn{
+    border: 1px solid rgb(119, 216, 222);
+    border-radius: 12%;
+    color: rgb(119, 216, 222);
+    padding: 7px 10px;
+}
+
+.header-btn:hover{
+    color:#020C1B;
+    background-color: rgb(119, 216, 222);
+}

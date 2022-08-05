@@ -1,0 +1,43 @@
+.about{
+    width: 1088px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+.about-header{
+    font-size: 30px;
+}
+
+.about-content{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-text{
+    width: 678px;
+    max-width: 100%;
+}
+
+.about-text > p{
+    color: #A8B2D1;
+    margin-top: 7%;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1024px){
+    .about{
+        padding-left: 5%;
+    }
+    .about-img{
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .about-content{
+        width: 95%;
+    }
+}
