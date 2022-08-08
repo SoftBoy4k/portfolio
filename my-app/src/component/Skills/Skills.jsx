@@ -3,7 +3,7 @@ import './Skills.css'
 export const Skills = () => {
   return (
     <>
-        <h2 className='skills-header'>My Skills:</h2>,
+        <h2 className='skills-header'>My Skills:</h2>
         <ul className="skills">
             <li>JavaScript</li>
             <li>TypeScript</li>

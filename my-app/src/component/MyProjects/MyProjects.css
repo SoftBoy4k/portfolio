@@ -16,7 +16,7 @@
     justify-content: space-between;
     background-color: #233554;
     padding: 5% 2%;
-    margin: 0 5%;
+    margin: 0 auto;
     margin-bottom: 5%;
     width: 90%;
 }
@@ -63,4 +63,11 @@
         width: 51%;
         margin-bottom: 5%;
     }
+}
+
+@media screen and (max-width: 425px) {
+    .project-content{
+        width: 90%;
+    }
+
 }
