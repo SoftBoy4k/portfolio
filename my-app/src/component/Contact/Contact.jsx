@@ -9,7 +9,7 @@ export const Contact = () => {
             <div className="contacts-content">
                 <a href="https://www.linkedin.com/in/vladislav-pimoshenko-228b31214/">
                     <img src="/img/linkedin.png"/>
-                    <p>LinkedIn</p>
+                    LinkedIn
                 </a>
                     
                 <a href="https://vk.com/softboy4k">

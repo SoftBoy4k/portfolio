@@ -40,6 +40,11 @@
     margin-left: 3%;
 }
 
+
+.header-content_text{
+    transition: 0.1s 0.1s ease;
+}
+
 .header-content_text:hover{
     color:rgb(119, 216, 222)
 }
@@ -49,6 +54,7 @@
     border-radius: 12%;
     color: rgb(119, 216, 222);
     padding: 7px 10px;
+    transition: 0.5s 0.1s ease;
 }
 
 .header-btn:hover{
